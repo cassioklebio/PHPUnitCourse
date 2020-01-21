@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class QueueTest2 extends TestCase
+class Queue2Test extends TestCase
 {
     public function testNewQueueIsEmpty()
     {
@@ -43,6 +43,6 @@ class QueueTest2 extends TestCase
     {
         $item = $queue2->pop();
 
-        $this->assertEqual(0, $queue2->getCount());
+        $this->assertEquals(0, $queue2->getCount());
     }
 }
