@@ -524,6 +524,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'PharIo\\Version\\VersionNumber' => __DIR__ . '/..' . '/phar-io/version/src/VersionNumber.php',
         'Queue' => __DIR__ . '/../..' . '/src/Queue.php',
         'Queue2' => __DIR__ . '/../..' . '/src/Queue2.php',
+        'QueueException' => __DIR__ . '/../..' . '/src/QueueException.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',

@@ -5,6 +5,7 @@
  */
 
 use PHPUnit\Framework\TestCase;
+use \App\src\QueueException;
 
 class Queue3Test extends TestCase
 {
@@ -59,4 +60,16 @@ class Queue3Test extends TestCase
 
         $this->assertEquals('first', static::$queue->pop());
     }
+
+    public function testMaxNumberOfItemsCanBeAdded()
+    {
+        for($i = 0; $i < Queue::MAX_ITEMS; $i++){
+
+            static::$queue->push($i);
+        }
+
+        $this->assertEquals(Queue::MAX_ITEMS, static::$queue->getCount());
+    }
+
+
 }

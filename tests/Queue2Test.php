@@ -45,4 +45,20 @@ class Queue2Test extends TestCase
 
         $this->assertEquals(0, $queue2->getCount());
     }
+
+//    public function testExceptionThrownWhenAddingItemToAFullQueue()
+//    {
+//        $queue2 = new Queue2;
+//
+//        for ($i = 0; $i < Queue::MAX_ITEMS; $i++){
+//
+//            $queue2->push($i);
+//        }
+//
+//        $this->expectException(QueueException::class);
+//
+//        $queue2->push('wafer thin mint');
+//    }
+
+
 }
