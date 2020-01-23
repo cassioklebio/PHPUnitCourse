@@ -717,6 +717,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'TemperatureService' => __DIR__ . '/../..' . '/src/TemperatureService.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
@@ -727,6 +728,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'User' => __DIR__ . '/../..' . '/src/User.php',
+        'WeatherMonitor' => __DIR__ . '/../..' . '/src/WeatherMonitor.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
