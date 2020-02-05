@@ -1,5 +1,6 @@
 <?php
 
+use \http\Exception\InvalidArgumentException;
 
 class Multiplicacao
 {
@@ -17,8 +18,11 @@ class Multiplicacao
     /**
      * @param mixed $num1
      */
-    public function setNum1($num1)
+    public function setNum1($num1 = null)
     {
+        if (!$num1){
+            throw new \InvalidArgumentException("Parametro nao informado");
+        }
         $this->num1 = $num1;
     }
 
@@ -33,8 +37,11 @@ class Multiplicacao
     /**
      * @param mixed $num2
      */
-    public function setNum2($num2)
+    public function setNum2($num2 = null)
     {
+        if (!$num2){
+            throw new \InvalidArgumentException("Parametro nao informado");
+        }
         $this->num2 = $num2;
     }
 
