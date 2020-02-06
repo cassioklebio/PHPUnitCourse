@@ -32,5 +32,12 @@ class Article2Test extends TestCase
         self::assertEquals($this->article->getSlug(), "An_example_article");
     }
 
+    public function testSlugDoesNotHaveAnyNonWordCharactrs()
+    {
+        $this->article->title = "Read! This! Now!";
+
+        self::assertEquals($this->article->getSlug(), "Read_This_Now");
+    }
+
 
 }
