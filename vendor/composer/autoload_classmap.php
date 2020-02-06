@@ -76,6 +76,8 @@ return array(
     'Hamcrest\\Type\\IsString' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
     'Hamcrest\\Util' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
     'Hamcrest\\Xml\\HasXPath' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+    'Item' => $baseDir . '/src/Item.php',
+    'ItemChild' => $baseDir . '/src/ItemChild.php',
     'Mailer' => $baseDir . '/src/Mailer.php',
     'Multiplicacao' => $baseDir . '/src/Multiplicacao.php',
     'Order' => $baseDir . '/src/Order.php',
