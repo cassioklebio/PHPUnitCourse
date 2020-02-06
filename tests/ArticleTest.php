@@ -43,6 +43,12 @@ class ArticleTest extends TestCase
 
     }
 
+    public function testSubtitleHasWhitespaceReplaceBySingleUnderscores()
+    {
+        $this->article->setTitle('An example article');
+
+        self::assertEquals('An_example_article', $this->article->getTitle());
+    }
 
 
 }

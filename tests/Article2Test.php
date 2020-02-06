@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class ArticleTest2 extends TestCase
+class Article2Test extends TestCase
 {
     protected $article;
 
@@ -13,8 +13,24 @@ class ArticleTest2 extends TestCase
 
     public function testSlugHasSpacesReplaceByUnderscores()
     {
-        $this->article->title = "An xample article";
+        $this->article->title = "An example article";
 
-        $this->assertEquals($this->article->getSlug(), "An_example_article");
+        self::assertEquals($this->article->getSlug(), "An_example_article");
     }
+
+    public function testSlugHasWhiteSpaceReplacedBySingleUnderscore()
+    {
+        $this->article->title = "An   example     \n      article";
+
+        self::assertEquals($this->article->getSlug(), "An_example_article");
+    }
+
+    public function testSlugDoesNotStartOrEndWithAnUnderscore()
+    {
+        $this->article->title = " An example article ";
+
+        self::assertEquals($this->article->getSlug(), "An_example_article");
+    }
+
+
 }

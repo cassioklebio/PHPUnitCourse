@@ -7,6 +7,24 @@ class Article
 
     private $slug;
 
+    private $subtitle;
+
+    /**
+     * @return mixed
+     */
+    public function getSubtitle()
+    {
+        return $this->subtitle;
+    }
+
+    /**
+     * @param mixed $subtitle
+     */
+    public function setSubtitle($subtitle)
+    {
+        $this->subtitle = $subtitle;
+    }
+
     /**
      * @return mixed
      */
@@ -28,7 +46,11 @@ class Article
      */
     public function getTitle()
     {
-        return $this->title;
+        $title = $this->title;
+
+        $title = str_replace( ' ', '_',$title);
+
+        return $title;
     }
 
     /**
@@ -37,6 +59,7 @@ class Article
     public function setTitle($title)
     {
         $this->title = $title;
+
     }
 
 

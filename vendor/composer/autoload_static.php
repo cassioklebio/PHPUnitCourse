@@ -76,6 +76,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
 
     public static $classMap = array (
         'Article' => __DIR__ . '/../..' . '/src/Article.php',
+        'Article2' => __DIR__ . '/../..' . '/src/Article2.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
