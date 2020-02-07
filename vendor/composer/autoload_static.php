@@ -145,10 +145,12 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'IntegerPrivate' => __DIR__ . '/../..' . '/src/IntegerPrivate.php',
         'Item' => __DIR__ . '/../..' . '/src/Item.php',
         'ItemChild' => __DIR__ . '/../..' . '/src/ItemChild.php',
         'Mailer' => __DIR__ . '/../..' . '/src/Mailer.php',
         'Multiplicacao' => __DIR__ . '/../..' . '/src/Multiplicacao.php',
+        'NovoItem' => __DIR__ . '/../..' . '/src/NovoItem.php',
         'Order' => __DIR__ . '/../..' . '/src/Order.php',
         'Order2' => __DIR__ . '/../..' . '/src/Order2.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
@@ -724,6 +726,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'Soma' => __DIR__ . '/../..' . '/src/Soma.php',
+        'StringPrivate' => __DIR__ . '/../..' . '/src/StringPrivate.php',
         'Subtracao' => __DIR__ . '/../..' . '/src/Subtracao.php',
         'TemperatureService' => __DIR__ . '/../..' . '/src/TemperatureService.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
@@ -736,6 +739,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'User' => __DIR__ . '/../..' . '/src/User.php',
+        'ValuePrivate' => __DIR__ . '/../..' . '/src/ValuePrivate.php',
         'WeatherMonitor' => __DIR__ . '/../..' . '/src/WeatherMonitor.php',
     );
 
