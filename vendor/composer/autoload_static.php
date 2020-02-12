@@ -147,6 +147,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
         'IntegerPrivate' => __DIR__ . '/../..' . '/src/IntegerPrivate.php',
         'Item' => __DIR__ . '/../..' . '/src/Item.php',
+        'Item2' => __DIR__ . '/../..' . '/src/Item2.php',
         'ItemChild' => __DIR__ . '/../..' . '/src/ItemChild.php',
         'Mailer' => __DIR__ . '/../..' . '/src/Mailer.php',
         'Multiplicacao' => __DIR__ . '/../..' . '/src/Multiplicacao.php',

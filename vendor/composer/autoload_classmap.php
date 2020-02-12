@@ -78,6 +78,7 @@ return array(
     'Hamcrest\\Xml\\HasXPath' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
     'IntegerPrivate' => $baseDir . '/src/IntegerPrivate.php',
     'Item' => $baseDir . '/src/Item.php',
+    'Item2' => $baseDir . '/src/Item2.php',
     'ItemChild' => $baseDir . '/src/ItemChild.php',
     'Mailer' => $baseDir . '/src/Mailer.php',
     'Multiplicacao' => $baseDir . '/src/Multiplicacao.php',
