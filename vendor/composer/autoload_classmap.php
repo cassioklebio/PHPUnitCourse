@@ -6,8 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AbstractPerson' => $baseDir . '/src/AbstractPerson.php',
     'Article' => $baseDir . '/src/Article.php',
     'Article2' => $baseDir . '/src/Article2.php',
+    'Doctor' => $baseDir . '/src/Doctor.php',
     'Hamcrest\\Arrays\\IsArray' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
     'Hamcrest\\Arrays\\IsArrayContaining' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
     'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -81,6 +83,7 @@ return array(
     'Item2' => $baseDir . '/src/Item2.php',
     'ItemChild' => $baseDir . '/src/ItemChild.php',
     'Mailer' => $baseDir . '/src/Mailer.php',
+    'Mailer2' => $baseDir . '/src/Mailer2.php',
     'Multiplicacao' => $baseDir . '/src/Multiplicacao.php',
     'NovoItem' => $baseDir . '/src/NovoItem.php',
     'Order' => $baseDir . '/src/Order.php',
@@ -542,6 +545,7 @@ return array(
     'PharIo\\Version\\VersionConstraintParser' => $vendorDir . '/phar-io/version/src/VersionConstraintParser.php',
     'PharIo\\Version\\VersionConstraintValue' => $vendorDir . '/phar-io/version/src/VersionConstraintValue.php',
     'PharIo\\Version\\VersionNumber' => $vendorDir . '/phar-io/version/src/VersionNumber.php',
+    'Product' => $baseDir . '/src/Product.php',
     'Queue' => $baseDir . '/src/Queue.php',
     'Queue2' => $baseDir . '/src/Queue2.php',
     'QueueException' => $baseDir . '/src/QueueException.php',

@@ -75,8 +75,10 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
     );
 
     public static $classMap = array (
+        'AbstractPerson' => __DIR__ . '/../..' . '/src/AbstractPerson.php',
         'Article' => __DIR__ . '/../..' . '/src/Article.php',
         'Article2' => __DIR__ . '/../..' . '/src/Article2.php',
+        'Doctor' => __DIR__ . '/../..' . '/src/Doctor.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -150,6 +152,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'Item2' => __DIR__ . '/../..' . '/src/Item2.php',
         'ItemChild' => __DIR__ . '/../..' . '/src/ItemChild.php',
         'Mailer' => __DIR__ . '/../..' . '/src/Mailer.php',
+        'Mailer2' => __DIR__ . '/../..' . '/src/Mailer2.php',
         'Multiplicacao' => __DIR__ . '/../..' . '/src/Multiplicacao.php',
         'NovoItem' => __DIR__ . '/../..' . '/src/NovoItem.php',
         'Order' => __DIR__ . '/../..' . '/src/Order.php',
@@ -611,6 +614,7 @@ class ComposerStaticInit1d486d58f5635d29441edf5c24eeab5d
         'PharIo\\Version\\VersionConstraintParser' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintParser.php',
         'PharIo\\Version\\VersionConstraintValue' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintValue.php',
         'PharIo\\Version\\VersionNumber' => __DIR__ . '/..' . '/phar-io/version/src/VersionNumber.php',
+        'Product' => __DIR__ . '/../..' . '/src/Product.php',
         'Queue' => __DIR__ . '/../..' . '/src/Queue.php',
         'Queue2' => __DIR__ . '/../..' . '/src/Queue2.php',
         'QueueException' => __DIR__ . '/../..' . '/src/QueueException.php',
